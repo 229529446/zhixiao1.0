@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    tools:context=".MainActivity">
+
+    <!-- 时间 -->
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#C0D9D9"
+        android:text="2015 0809 22:00"
+        android:textColor="#FFFFFF"
+        android:padding="3dp"
+        android:textSize="12sp" />
+    <!-- 头像 -->
+
+
+    <!-- 大字 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+
+        <com.example.administrator.zhixiao10.view.CustomImageView
+            android:id="@+id/head"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:src="@drawable/touxiang"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="15dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/account_fromnick"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="minzi"
+                />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/content"
+                android:background="@drawable/incoming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="马云"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+            <!-- 小字 -->
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

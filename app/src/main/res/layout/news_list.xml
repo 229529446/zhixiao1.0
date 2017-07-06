@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.administrator.zhixiao10.fragments.ListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView-->
+        <!--android:id="@+id/ttt"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="新闻列表fragment" />-->
+
+
+    <!--<com.example.administrator.zhixiao10.view.CustomImageView-->
+        <!--android:id="@+id/test222"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--app:src="@drawable/bagg"-->
+        <!--/>-->
+
+    <com.example.administrator.zhixiao10.view.RefreshListView
+        android:id="@+id/news_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.example.administrator.zhixiao10.view.RefreshListView>
+
+</FrameLayout>

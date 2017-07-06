@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activity.MainActivity">
+
+
+
+
+    <com.example.administrator.zhixiao10.view.NoScrollViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12">
+
+    </com.example.administrator.zhixiao10.view.NoScrollViewPager>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#13000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <com.example.administrator.zhixiao10.view.tabButton
+            android:id="@+id/zhuye"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:btitle="主页"
+            app:titleColourDefault="@color/colorAccent"
+            app:titleColourSelect="@color/colorPrimaryDark"
+            app:titleSize="@dimen/btnTextSize"
+            app:defaultImage="@drawable/zhuye"
+            app:selectImage="@drawable/zhuye_checked"
+
+            />
+
+        <com.example.administrator.zhixiao10.view.tabButton
+            android:id="@+id/tieba"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:btitle="群聊"
+            app:titleColourDefault="@color/colorAccent"
+            app:titleColourSelect="@color/colorPrimaryDark"
+            app:titleSize="@dimen/btnTextSize"
+            app:defaultImage="@drawable/tieba"
+            app:selectImage="@drawable/tieba_checked"
+            />
+        <com.example.administrator.zhixiao10.view.tabButton
+            android:id="@+id/shenbian"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:btitle="身边"
+            app:titleColourDefault="@color/colorAccent"
+            app:titleColourSelect="@color/colorPrimaryDark"
+            app:titleSize="@dimen/btnTextSize"
+            app:defaultImage="@drawable/shenbian"
+            app:selectImage="@drawable/shenbian_checked"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+    <!--<RadioGroup-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+
+        <!--<RadioButton-->
+            <!--style="@style/BottomTabStyle"-->
+            <!--android:drawableTop="@drawable/home_page_btn_selector"-->
+            <!--android:text="主页"-->
+            <!--android:id="@+id/zhuye"-->
+            <!--/>-->
+        <!--<RadioButton-->
+            <!--style="@style/BottomTabStyle"-->
+            <!--android:drawableTop="@drawable/tieba_btn_selector"-->
+            <!--android:text="贴吧"-->
+            <!--android:id="@+id/tieba"-->
+            <!--/>-->
+
+        <!--<RadioButton-->
+            <!--style="@style/BottomTabStyle"-->
+            <!--android:drawableTop="@drawable/shenbian_btn_selector"-->
+            <!--android:text="身边"-->
+            <!--android:id="@+id/shenbian"-->
+            <!--/>-->
+
+
+    <!--</RadioGroup>-->
+
+
+</LinearLayout>

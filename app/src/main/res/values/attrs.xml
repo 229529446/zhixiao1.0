@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="tabButton">
+        <attr name="defaultImage" format="reference" />
+        <attr name="selectImage" format="reference" />
+        <attr name="titleColourDefault" format="color"/>
+        <attr name="titleColourSelect" format="color"/>
+        <attr name="btitle" format="string"/>
+        <attr name="titleSize" format="dimension"/>
+    </declare-styleable>
+
+    <attr name="borderRadius" format="dimension" />
+
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+    <attr name="src" format="reference"></attr>
+
+    <declare-styleable name="CustomImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+        <attr name="src" />
+    </declare-styleable>
+
+
+
+        <attr name="item_count" format="integer"></attr>
+
+        <declare-styleable name="ViewPagerIndicator">
+            <attr name="item_count" />
+        </declare-styleable>
+
+</resources>
